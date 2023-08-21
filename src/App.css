@@ -1,0 +1,38 @@
+.navBar {
+  background-color: rgb(233, 161, 165);
+}
+.logoTalita {
+  background-image: url("./assets/logo.png");
+  background-size: cover;
+  width: 50px;
+  height: 50px;
+  display: inline-block;
+  position: absolute;
+}
+.navBarItems {
+  display: inline-block;
+}
+li {
+  display: inline-block;
+  justify-content: space-around;
+  font-size: x-large;
+  padding-left: 30px;
+  color: rgb(248, 224, 188);
+}
+.bienvenidos {
+  font-size: xx-large;
+  color: rgb(233, 161, 165);
+  margin-top: 10px;
+  text-align: center;
+}
+.cartWidget {
+  display: inline-block;
+  font-size: x-large;
+  padding-left: 30px;
+  color: rgb(248, 224, 188);
+}
+.cartWidget h6 {
+  display: inline-block;
+  margin-left: 8px;
+  color: rgb(248, 224, 188);
+}
