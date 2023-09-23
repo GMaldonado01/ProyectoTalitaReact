@@ -12,13 +12,13 @@ const NavBar = () => {
             <Link to="/Catalogo"> Catalogo de alfajores </Link>
           </li>
           <li>
-            <Link to="/categorias/Con baño de chocolate">
+            <Link to="/categorias/Conbanodechocolate">
               {" "}
               Con baño de chocolate{" "}
             </Link>
           </li>
           <li>
-            <Link to="/categorias/Sin baño de chocolate">
+            <Link to="/categorias/Sinbanodechocolate">
               {" "}
               Sin baño de chocolate{" "}
             </Link>
