@@ -8,16 +8,14 @@ const ItemDetailConteiner = () => {
   const params = useParams();
 
   const pedirItemPorId = (id) => {
-    console.log("id: ", id);
     return new Promise((resolve) => {
       setTimeout(() => {
         resolve(
           alfajores.find((alfajor) => {
-            console.log("alfajor.id: ", alfajor.id);
             return alfajor.id.toString() === id;
           })
         );
-      }, 2000);
+      }, 1000);
     });
   };
 
@@ -27,19 +25,7 @@ const ItemDetailConteiner = () => {
     }, []);
   }, [params.id]);
 
-  return (
-    <div>
-      {item ? (
-        <ItemDetail
-          nombre={item.nombre}
-          descripcion={item.descripcion}
-          imagen={item.imagen}
-        />
-      ) : (
-        "Cargando..."
-      )}
-    </div>
-  );
+  return <div>{item ? <ItemDetail producto={item} /> : "Cargando..."}</div>;
 };
 
 export default ItemDetailConteiner;

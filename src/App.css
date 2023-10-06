@@ -1,3 +1,9 @@
+.todo {
+  background-color: rgb(248, 224, 188);
+  height: 100%;
+  margin: 0px;
+}
+
 h2 {
   color: rgb(248, 224, 188);
 }
@@ -11,29 +17,67 @@ h2 {
   justify-content: space-between;
   text-align: center;
 }
+.imagenesCarrito {
+  width: 300px;
+  height: 300px;
+  border-radius: 10%;
+  align-items: center;
+  margin-left: 170px;
+}
 .imagenes {
   width: 300px;
   height: 300px;
   border-radius: 10%;
+  align-items: center;
 }
 
 .titulo {
   text-align: center;
+  color: rgb(233, 161, 165);
+  margin-top: 0px;
 }
 .descripcion {
   text-align: center;
 }
+
+.contenedorTarjetitas {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 .tarjetita {
+  flex: auto;
   width: 300px;
   height: auto;
-  justify-content: center;
-  border: solid;
+  margin-left: auto;
+  border: solid 5px;
+  color: rgb(233, 161, 165);
   border-radius: 10%;
   margin: 50px;
+}
+.boton {
+  background-color: rgb(233, 161, 165);
+  color: rgb(248, 224, 188);
+  border: none;
+  border-radius: 5px;
+  font-size: 1.2em;
+  padding: 10px 20px;
+  margin: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+.contador {
+  font-size: 2em;
+  font-weight: bold;
+  color: rgb(248, 224, 188);
 }
 
 .navBar {
   background-color: rgb(233, 161, 165);
+  margin: 0px;
+}
+.navBarItems {
+  margin: 0px;
 }
 .logoTalita {
   background-image: url("/src/assets/logo.png");
@@ -42,6 +86,7 @@ h2 {
   height: 50px;
   display: inline-block;
   position: absolute;
+  margin-top: 20px;
 }
 
 li {
@@ -50,12 +95,13 @@ li {
   font-size: x-large;
   padding-left: 30px;
   color: rgb(248, 224, 188);
+  text-decoration: none;
 }
 
 .bienvenidos {
   font-size: xx-large;
   color: rgb(233, 161, 165);
-  margin-top: 10px;
+  padding-top: 10px;
   text-align: center;
 }
 .cartWidget {
@@ -68,4 +114,15 @@ li {
   display: inline-block;
   margin-left: 8px;
   color: rgb(248, 224, 188);
+}
+
+.XL {
+  font-size: x-large;
+  text-align: end;
+  color: rgb(233, 161, 165);
+}
+
+.L {
+  font-size: larger;
+  color: rgb(233, 161, 165);
 }
